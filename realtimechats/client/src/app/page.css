@@ -1,0 +1,70 @@
+.home__page {
+    display: flex;
+    flex-direction: column;
+}
+
+.createroom__handler {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.roomname__field {
+    width: 350px;
+    height: 35px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.roomname__field:focus {
+    background-color: white;
+    color: grey;
+}
+
+.roomname__button {
+    background-color: skyblue;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.roomname__button:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
+.availRooms {
+    padding-left: 200px;
+    font-weight: bold;
+}
+
+.rooms__array {
+    display: flex;
+    width: 100%;
+}
+
+.roomSection {
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px; 
+}
+
+.joinButton {
+    background-color: skyblue;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.joinButton:hover {
+    background-color: green;
+    color: white;
+}
